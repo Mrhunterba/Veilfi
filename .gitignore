@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# Data: raw recordings contain participant data - never commit
+data/raw/
+data/interim/
+*.pcap
+*.pcapng
+*.csi
+*.dat
+
+# Generated simulation output
+results/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
